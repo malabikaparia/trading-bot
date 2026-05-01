@@ -14,6 +14,7 @@ The design emphasizes modularity, separating concerns across client, order handl
 * Modular and reusable code structure
 
 ## Project Structure
+```text
 trading-bot/
 │
 ├── bot/
@@ -27,7 +28,7 @@ trading-bot/
 ├── README.md               # Project documentation
 ├── .gitignore              # Ignored files
 └── bot.log                 # Log output (generated)
-
+```
 
 ## Setup
 
@@ -79,6 +80,15 @@ Quantity: 0.001
 ```
 ERROR ❌: Price required for LIMIT order
 ```
+
+## Sample Output
+
+### Successful Order
+![Success Output](assets/success.png)
+
+### Validation Error
+![Error Output](assets/error.png)
+
 
 ## Logging
 All API requests, responses, and errors are logged in:
